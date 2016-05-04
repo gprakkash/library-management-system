@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <title>Contact Us</title>
+        <meta name="AUTHOR" content="Gaurav Prakash">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <main>
+            <form action="contactus.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Your email:</td>
+                        <td><input type="text" name="customeremail"></td>
+                    </tr>
+                    <tr>
+                        <td>Your message:</td>
+                        <td><textarea name="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Do you want reply?</td>
+                        <td><input type="checkbox" name="replywanted"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="submit" value="Send Message"></td>
+                    </tr>
+                </table>    
+            </form>
+        </main>
+    </body>
+</html>

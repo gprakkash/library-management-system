@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Demo CSS3</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat'
+              rel='stylesheet' type='text/css'>
+        <style>
+            p
+            {
+                font-family: 'Montserrat', sans-serif;
+                color: #000000;
+                font-size: medium;
+            }
+            h1
+            {
+                font-family: Arial, Helvetica, Verdana san-serif;
+                color: #ff0000;
+                font-size: x-large;
+                text-align: center;
+                padding: 5px;
+                margin: 0 -15px 20px -15px;
+            }
+            h2
+            {
+                font-family: Arial, Helvetica, Verdana san-serif;
+                color: #0000ff;
+                font-size: larger;
+            }
+            footer p
+            {
+                font-size: x-small;
+            }
+            .entry-title
+            {
+                background-color: #808080;
+            }
+            .entry-meta
+            {
+                font-style: italic;
+            }
+            /*            .entry-content {
+                            line-height: .9;
+                        }*/
+            .author
+            {
+                font-style: normal;
+            }
+            /*            .aside-body p {
+                            color: #e350e0;
+                        }*/
+            .entry-header {
+                font-variant: small-caps;
+            }
+            #post-5946
+            {
+                background-color: #e2e0e0;
+            }
+            #booklist p {
+                color: #ff6a00;
+            }
+            ul li a
+            {
+                color: red;
+            }
+            ul :nth-child(odd) { background-color: #d5c1ff;}
+            ul :nth-child(even) {background-color: #ffffff;}
+            .sidebar{
+                float: left;
+                width: 170px;
+                margin-top: 50px;
+            }
+            .mainSection{
+                margin-left: 180px;
+            }
+            .wholePage{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                color: #000000;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 750px;
+                border: 3px solid rgb(75, 75, 75);
+                box-shadow: 0 0 15px 5px rgba(40, 70, 100, .75);
+            }
+            .image {
+                width: 134px;
+                height: 136px;
+                margin: 5px;
+                float: right;
+            }
+            ul.menu {
+                list-style-type: none;
+                padding-left: 0;
+                margin-left: 0;
+                border-bottom: 1px dashed #000000;
+            }
+            .menu li {
+                display: inline;
+                background: #ffffff;
+            }
+            .menu a {
+                background-color: #EAEAEA;
+                color: #333;
+                display: inline-block;
+                border: 1px dashed #000;
+                border-bottom: none;
+                padding: 5px 15px 5px 15px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body class="wholePage">
+        <aside class="sidebar">
+            <section class="aside-header">
+                <h2>About HTML5</h2>
+            </section>
+
+            <section class="aside-body">
+                <p><a href="http://jesseliberty.com">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit.
+                    Fusce porta lorem rhoncus, rhoncus arci sed, auctor nisl.</p>
+                <p>Etimam rutrum risus tellus, eu interdum tortor porttitor ut.</p>
+                <p>Praesent et nisl tincidunt lorem suscipit laoreet vel non turpis.</p>
+                <p>Vivamus hendrerit vel neque at varius.</p>
+                <p>Donec tempus, sapien at fermentum pulvinar, orci mauris tempor dolar.</p>
+            </section>
+        </aside>
+        
+        <ul class="menu">
+            <li><a href="index.html">Main Page</a></li>
+            <li><a href="Books.html">Books</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Opinion.html">Opinion</a></li>
+        </ul>
+        
+        <div class="mainSection">
+            <article id="post-5946">
+                <section id="post-5946-header">
+                    <h1 class="entry-title">8th Pluralsight Course:
+                        HTML5 From Scratch</h1>
+                    <div class="entry-meta">
+                        <span class="meta-prep">Posted on July 14, 2013</span>
+                        <span class="meta-sep">by</span>
+                        <span class="author">Jesse Liberty</span>
+                    </div><!-- .entry-meta -->
+                </section>
+                <section class="entry-content">
+                    <p>Very proud to announce my latest Pluralsight Course:
+                        <a href="http://www.w3schools.com/html/html5_intro.asp">
+                            HTML5 From Scratch</a>
+                        <img class="image" alt="html5" title="html5" src="http://www.w3schools.com/css/img_fjords.jpg">
+                    </p>
+                    <p>
+                        <a href="http://www.html5rocks.com/en/">HTML5</a>
+                        is the markup language of the web that has taken the world by storm.
+                        In this "from scratch" course,
+                        I demonstrate all you need to know about what's new in HTML5 to get started
+                        creating world-class web sites
+                    </p>
+                </section>
+                <section class="entry-content" id="booklist">
+                    <p class="entry-header">Here is a list of Books I just read</p>
+                    <ul>
+                        <li>Introduction to Algorithms</li>
+                        <li>The Algorithm Design Manual</li>
+                        <li>The Road to Heaven</li>
+                        <li>Timequake</li>
+                        <li>A Clash of Kings</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language used 
+                        for describing the presentation of a document written in 
+                        a markup language.[1] Although most often used to set the 
+                        visual style of web pages and user interfaces written in 
+                        HTML and XHTML, the language can be applied to any XML 
+                        document, including plain XML, SVG and XUL, and is 
+                        applicable to rendering in speech, or on other media. Along 
+                        with HTML and JavaScript, CSS is a cornerstone technology 
+                        used by most websites to create visually engaging webpages, 
+                        user interfaces for web applications, and user interfaces 
+                        for many mobile applications.[2]</p>
+                    <p>CSS is designed primarily to enable the separation of 
+                        document content from document presentation, including 
+                        aspects such as the layout, colors, and fonts.[3] 
+                        This separation can improve content accessibility, provide 
+                        more flexibility and control in the specification of 
+                        presentation characteristics, enable multiple HTML pages 
+                        to share formatting by specifying the relevant CSS in a 
+                        separate .css file, and reduce complexity and repetition in 
+                        the structural content.</p>
+                </section>
+            </article>
+        </div>
+        <footer class="footer">
+            <p>Copyright 2013 Jesse Liberty</p>
+        </footer>
+    </body>
+</html>
